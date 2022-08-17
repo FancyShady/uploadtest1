@@ -1,0 +1,15 @@
+script:
+  publish:
+    local-path: D:\temp
+    register:
+      service-id: test
+      service-name: '????'
+      expire-second: 60
+      host: http://127.0.0.1:8080
+
+spring:
+  redis:
+    port: 6379
+    host: 127.0.0.1
+    database: 0
+
